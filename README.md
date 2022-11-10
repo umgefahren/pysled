@@ -1,3 +1,3 @@
 # Pysled
 
-A pythonic wrapper around sled (a rust in memory db).
+A pythonic wrapper around sled (a rust db).
