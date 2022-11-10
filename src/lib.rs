@@ -1,6 +1,6 @@
-use std::{convert, path::PathBuf};
+use std::path::PathBuf;
 
-use pyo3::{exceptions::PyValueError, prelude::*, types::PyByteArray};
+use pyo3::{exceptions::PyValueError, prelude::*};
 use sled::{Db, Tree};
 
 fn convert_to_pyresult<T>(inp: sled::Result<T>) -> PyResult<T> {
